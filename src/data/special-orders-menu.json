@@ -1,0 +1,184 @@
+{
+  "name": "Special Orders",
+  "description": "Order our signature items in various sizes",
+  "categories": [
+    {
+      "name": "Pinsa Romana Base",
+      "description": "Our signature 48-hour fermented dough",
+      "items": [
+        {
+          "name": "Pinsa Romana Base",
+          "description": "Perfect for creating your own toppings at home",
+          "price": 18
+        }
+      ]
+    },
+    {
+      "name": "Pizzette Napoli Style",
+      "description": "Perfect combo of napolita pizzette style. Margerita, Bresaola and Pecorino and Homemade Pistacchio Pesto, Burrata and Mortadella",
+      "items": [
+      
+        {
+          "name": "Pizzette Napoli Style S",
+          "description": "Serves 3 people",
+          "servings": 3,
+          "price": 27
+        },
+        {
+          "name": "Pizzette Napoli Style M",
+          "description": "Serves 6 people",
+          "servings": 6,
+          "price": 52
+        },
+        {
+          "name": "Pizzette Napoli Style L",
+          "description": "Serves 12 people",
+          "servings": 12,
+          "price": 77
+        }
+      ]
+    },
+    
+    {
+      "name": "Pizza Teglia Romana 60",
+      "description": "Combines the Roman pizza style al taglio with Singapore’s 60th anniversary",
+      "items": [
+        {
+          "name": "Margherita",
+          "description": "Slow-proofed Roman dough topped with crushed San Marzano tomatoes, fresh mozzarella, fragrant basil, and a drizzle of extra virgin olive oil",
+          "servings": 6,
+          "price": 22
+        },
+        {
+          "name": "Marinara",
+          "description": "A rustic tomato base with garlic, oregano, and olive oil on our crispy Roman crust — no cheese, all flavor.Simple, bold, and vegan-friendly.Serves 6 people",
+          "servings": 6,
+          "price": 18
+        },
+        {
+          "name": "Potato & Italian Sausage",
+          "description": "Creamy sliced potatoes paired with house-made Italian sausage, rosemary, and fior di latte. A rich, satisfying combo. Serves 6 people",
+          "servings": 6,
+          "price": 28
+        },
+        {
+          "name": "Amatriciana",
+          "description": "Savory guanciale (cured pork cheek), tangy tomato sauce, pecorino Romano, and onion, inspired by the famous pasta dish.Serves 6 people",
+          "servings": 12,
+          "price": 36
+        },
+        {
+          "name": "Friarielli & Italian Sausage",
+          "description": "Bitter greens (friarielli) sautéed with garlic, paired with juicy Italian sausage and melted provola cheese for a deep, earthy bite.Serves 6 people",
+          "servings": 12,
+          "price": 42
+        }
+      ]
+    },
+    {
+      "name": "Lasagna",
+      "description": "Our classic homemade lasagna in different sizes",
+      "items": [
+        {
+          "name": "Lasagna XS",
+          "description": "Perfect for 1 person",
+          "servings": 1,
+          "price": 20
+        },
+        {
+          "name": "Lasagna S",
+          "description": "Serves 4 people",
+          "servings": 4,
+          "price": 60
+        },
+        {
+          "name": "Lasagna M",
+          "description": "Serves 8 people",
+          "servings": 8,
+          "price": 90
+        },
+        {
+          "name": "Lasagna L",
+          "description": "Serves 16 people",
+          "servings": 16,
+          "price": 230
+        }
+      ]
+    },
+    {
+      "name": "Sharing Plattler",
+      "description": "Bite into mini Roman or Napolitan pizzette, crunch on Aperitivo Polenta with charcuterie, and treat yourself to Maritozzi bursting with Pistachio or Whipped Cream . Delizioso ",
+      "items": [
+      
+        {
+          "name": "Platter S",
+          "description": "Serves 3 people",
+          "servings": 3,
+          "price": 72
+        },
+        {
+          "name": "Platter M",
+          "description": "Serves 6 people",
+          "servings": 6,
+          "price": 100
+        },
+        {
+          "name": "Platter L",
+          "description": "Serves 12 people",
+          "servings": 12,
+          "price": 190
+        }
+      ]
+    },
+	
+    {
+      "name": "Sweet Desire",
+      "description": "Perfect for a sweet sharing where Roman and Sicilian tradition meet",
+      "items": [
+      
+        {
+          "name": "Maritozzi Pistacchio and Whipped Cream S ",
+          "description": "6 pieces",
+          "servings": 1,
+          "price":  36
+        },
+        {
+          "name": "Maritozzi Pistacchio and Whipped Cream M",
+          "description": "12 pieces",
+          "servings": 1,
+          "price": 70
+        },
+        {
+          "name": "Maritozzi Pistacchio and Whipped Cream L",
+          "description": "24 pieces",
+          "servings": 12,
+          "price": 134
+        }
+      ]
+    },
+    {
+      "name": "Sweet Desire",
+      "description": "Perfect for a sweet sharing where Roman and Sicilian tradition meet",
+      "items": [
+        {
+          "name": "Maritozzi Pistacchio and Whipped Cream S",
+          "description": "6 pieces",
+          "servings": 1,
+          "price": 36
+        },
+        {
+          "name": "Maritozzi Pistacchio and Whipped Cream M",
+          "description": "12 pieces",
+          "servings": 1,
+          "price": 70
+        },
+        {
+          "name": "Maritozzi Pistacchio and Whipped Cream L",
+          "description": "24 pieces",
+          "servings": 12,
+          "price": 134
+        }
+      ]
+    }
+  ]
+}

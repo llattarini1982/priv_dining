@@ -1,0 +1,177 @@
+{
+  "name": "I love Italian Food",
+  "description": "Perfect for intimate gatherings and family dinners",
+  "courses": [
+    {
+      "title": "Antipasto (Choose 1)",
+      "items": [
+         {
+          "name": "Roman Pizzette",
+          "description": " Three Type of Roman Pizzette (Marinara and Parsely sauce, Potato & Sausage and Stracciatella with Homemade pesto",
+          "signature": true
+        },
+		   {
+          "name": "Gnocco Fritto",
+          "description": "Fried dough, caramelized onion, cold cuts and stracchino cheese",
+          "signature": true,
+          "price": 30,
+          "category": "standard"
+        },
+        {
+          "name": "Frittata contadina",
+          "description": "Eggs and onion",
+          "price":30
+        },
+        {
+          "name": "Mix of Bruschette",
+          "description": "Homemade pistacchio pesto, burrata and mortadella. Cherry tomato & basil. Stracchino & sausage",
+          "price":30
+        },
+        {
+          "name": "Mix of Roasted Vegetables",
+          "description": "Vegetables selected based on the daily selection",
+          "price":30
+        },
+        {
+          "name": "Focaccia",
+          "description": "Crispy pinsa romana with rosemary and fennel seeds",
+          "price":30
+        },
+        {
+          "name": "Pesto Focaccia",
+          "description": "Homemade pesto, crispy pinsa romana with rosemary and fennel seeds",
+          "price":30
+        },
+        {
+          "name": "Italian Crispy chicken",
+          "description": "Pinsa romana, fried chicken, eggplants, zucchini pesto and cheese",
+          "price":30
+        },
+        {
+          "name": "Polpette al sugo",
+          "description": "Meatballs in tomato sauce (beef & pork)",
+          "price":30
+        },
+        {
+          "name": "Fried Carbonara",
+          "description": "Fried carbonara spaghetti",
+          "signature": true,
+          "price":30
+        }
+      ]
+    },
+    {
+      "title": "Starter (Choose 1)",
+      "items": [
+         {
+          "name": "Genovese Gnocchi",
+          "description": "Homemade gnocchi and pesto with pistacchio, parmiggiano and sundried tomato",
+          "price":30
+        },
+        {
+          "name": "Bolognese Gnocchi",
+          "description": "Homemade gnocchi, tomato, beef & pork bolognese",
+          "price":30
+        },
+        {
+          "name": "Golden Ravioli",
+          "description": "Homemade ravioli, egg, sage, spinach, ricotta and asparagus",
+          "signature": true,
+          "price":30
+        },
+        {
+          "name": "Linguine King Prawn",
+          "description": "King prawn and saffron sauce",
+          "signature": true,
+          "price":30
+        },
+        {
+          "name": "Parmiggiana",
+          "description": "Eggplants, tomato, mozzarella, parmiggiano and fresh basil",
+          "price":30
+        },
+        {
+          "name": "Lasagna",
+          "description": "Homemade lasagna sheets, beef & pork, tomato, parmiggiano, béchamel sauce, fresh basil",
+          "signature": true,
+          "price":30
+        },
+        {
+          "name": "Umbrichelli Amatriciana",
+          "description": "Homemade pasta with guanciale, onion, tomato, pecorino and parmiggiano",
+          "price":30
+        },
+        {
+          "name": "Tagliatelle Bolognese",
+          "description": "Homemade tagliatelle, tomato, stracciatella, pecorino or parmiggiano",
+          "price":30
+        },
+        {
+          "name": "Penne Amatriciana",
+          "description": "Penne with guanciale, onion, tomato, pecorino and parmiggiano",
+          "price":30
+        },
+        {
+          "name": "Carbonara",
+          "description": "Eggs, guanciale, pecorino or parmiggiano, black pepper",
+          "price":30
+        },
+        {
+          "name": "Risotto Milanese and sausage",
+          "description": "Rice, saffron and sausage",
+          "price":30
+        },
+        {
+          "name": "Spaghetti Tuna",
+          "description": "Spaghetti, tomato and tuna with fresh parsley",
+          "price":30
+        },
+        {
+          "name": "Pesto & Guanciale",
+          "description": "Mezze maniche with homemade pistacchio pesto and guanciale",
+          "price":30
+        }
+      ]
+    },
+    {
+      "title": "Main Course (Choose 1)",
+      "items": [
+        {
+          "name": "Osso Buco alla Milanese",
+          "description": "Braised veal shanks with saffron risotto and gremolata"
+        },
+        {
+          "name": "Branzino al Forno",
+          "description": "Oven-baked sea bass with herbs, potatoes, and seasonal vegetables"
+        },
+        {
+          "name": "Salti in bocca alla Romana",
+          "description": "Veal, prosciutto, mozzarella and roasted potato"
+        }
+      ]
+    },
+    {
+      "title": "Dessert (Choose 1)",
+      "items": [
+        {
+          "name": "Tiramisù",
+          "description": "Classic tiramisu with mascarpone and coffee-soaked homemade savoiardi"
+        },
+        {
+          "name": "Maritozzi",
+          "description": "Vanilla panna cotta with mixed berry compote",
+          "signature": true
+        },
+        {
+          "name": "Zabaione & Chocolate",
+          "description": "Homemade zabaione and dark chocolate",
+          "signature": true
+        }
+      ]
+    },
+    {
+      "title": "Italian Feast Course (Included)",
+      "description": "A special course selected by Chef Luca to complement your meal"
+    }
+  ]
+}

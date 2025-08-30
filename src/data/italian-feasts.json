@@ -1,0 +1,24 @@
+{
+  "name": "Italian Feasts",
+  "description": "Special feast selections curated by Sound of Love Luca",
+  "feasts": [
+    {
+      "name": "Italian Porchetta",
+      "description": "Italian Porchetta served Crispy Pinsa Romana, Iceberg Salad, Beer, and Chimichurri Sauce",
+      "signature": true,
+      "category": "feast"
+    },
+    {
+      "name": "Umbria Feast",
+      "description": "A celebration of Umbria and Tuscany culinary traditions (Gnocco Fritto, Bruschette, Cold Cuts Selection Pizzette, Pinsa Romana). Ideal to exeprience the Italian Happy Hour Vide",
+      "signature": true,
+      "category": "feast"
+    },
+    {
+      "name": "Family Style Feast",
+      "description": "Large sharing platters of Luca's most beloved recipes (Different type of Lasagna), perfect for family-style dining. Ideal for family and friends gathering",
+      "signature": true,
+      "category": "feast"
+    }
+  ]
+}

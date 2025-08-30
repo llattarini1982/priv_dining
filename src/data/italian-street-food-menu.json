@@ -1,0 +1,96 @@
+{
+  "name": "I love Italian Street Food",
+  "description": "Experience Italian street food from different Italian regions",
+  "courses": [
+    {
+      "title": "Street Food Selection (Choose 5)",
+      "items": [
+        {
+          "name": "Gnocco Fritto",
+          "description": "Fried dough, caramelized onion, cold cuts and stracchino cheese",
+          "signature": true
+        },
+         {
+          "name": "Roman Pizzette",
+          "description": " Three Type of Roman Pizzette (Marinara and Parsely sauce, Potato & Sausage and Stracciatella with Homemade pesto",
+          "signature": true
+        },
+        {
+          "name": "Frittata contadina",
+          "description": "Eggs and onion"
+        },
+        {
+          "name": "Mix of Bruschette",
+          "description": "Homemade pistacchio pesto, burrata and mortadella. Cherry tomato & basil. Stracchino & sausage"
+        },
+        {
+          "name": "Focaccia",
+          "description": "Crispy pinsa romana with rosemary and fennel seeds"
+        },
+        {
+          "name": "Pesto Focaccia",
+          "description": "Homemade pesto, crispy pinsa romana with rosemary and fennel seeds"
+        },
+        {
+          "name": "Italian Crispy chicken",
+          "description": "Pinsa romana, fried chicken, eggplants, zucchini pesto and cheese"
+        },
+        {
+          "name": "Polpette al sugo",
+          "description": "Meatballs in tomato sauce (beef & pork)"
+        },
+        {
+          "name": "Fried Carbonara",
+          "description": "Fried carbonara spaghetti",
+          "signature": true
+        },
+        {
+          "name": "Genovese Gnocchi",
+          "description": "Homemade gnocchi and pesto with pistacchio, parmiggiano and sundried tomato"
+        },
+        {
+          "name": "Bolognese Gnocchi",
+          "description": "Homemade gnocchi, tomato, beef & pork bolognese"
+        },
+        {
+          "name": "Penne Amatriciana",
+          "description": "Penne with guanciale, onion, tomato, pecorino and parmiggiano",
+          "price":30
+        },
+        {
+          "name": "Carbonara",
+          "description": "Eggs, guanciale, pecorino or parmiggiano, black pepper",
+          "price":30
+        },
+        {
+          "name": "Napolitan Pizzette",
+          "description": "Perfect combo of napolita pizzette style. Margerita, Bresaola and Pecorino and Homemade Pistacchio Pesto, Burrata and Mortadella",
+          "signature": true
+        }
+      ]
+    },
+    {
+      "title": "Italian Feast Selection (Choose 1)",
+      "items": [
+        {
+          "name": "Chef's Special Feast",
+          "description": "A curated selection of signature dishes chosen by Chef Luca, featuring seasonal ingredients and traditional recipes",
+          "signature": true,
+          "category": "feast"
+        },
+        {
+          "name": "Regional Feast",
+          "description": "A celebration of a specific Italian region's culinary traditions, rotating monthly",
+          "signature": true,
+          "category": "feast"
+        },
+        {
+          "name": "Family Style Feast",
+          "description": "Large sharing platters of Chef Luca's most beloved recipes, perfect for family-style dining",
+          "signature": true,
+          "category": "feast"
+        }
+      ]
+    }
+  ]
+}
