@@ -48,7 +48,7 @@ export default function PromotionalPopup() {
         {/* Close button */}
         <button
           onClick={handleClose}
-          className="absolute top-3 right-3 sm:top-4 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-wine/90 backdrop-blur-sm text-cream hover:bg-wine-dark rounded-full flex items-center justify-center transition-all duration-200 shadow-xl hover:shadow-2xl z-30 border-2 border-cream hover:scale-110"
+          className="absolute top-3 left-1/2 transform -translate-x-1/2 sm:top-4 w-10 h-10 sm:w-12 sm:h-12 bg-wine/90 backdrop-blur-sm text-cream hover:bg-wine-dark rounded-full flex items-center justify-center transition-all duration-200 shadow-xl hover:shadow-2xl z-30 border-2 border-cream hover:scale-110"
           aria-label="Close popup"
         >
           <X className="w-5 h-5 sm:w-6 sm:h-6 stroke-2" />
