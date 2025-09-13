@@ -477,10 +477,14 @@ function Booking() {
                     </h3>
                     <div className="flex items-center gap-2 mb-2">
                       <Package className="w-5 h-5 text-terracotta" />
-                      <p className="text-base sm:text-lg text-wine font-serif">${option.minSpending}</p>
+                      <div className="flex items-center gap-2">
+                        <p className="text-base sm:text-lg text-wine/60 font-serif line-through">${option.minSpending}</p>
+                        <p className="text-base sm:text-lg text-wine font-serif font-bold">${Math.round(option.minSpending * 0.9)}</p>
+                        <span className="bg-terracotta text-cream px-2 py-1 rounded-full text-xs font-serif font-bold">10% OFF</span>
+                      </div>
                     </div>
                     <p className="text-sm text-wine/70 mb-2">
-                      Minimum spending required
+                      Minimum spending required • 10% discount applied
                     </p>
                     <p className="text-sm text-wine/70 mb-4 font-serif italic">
                       {option.description}
@@ -498,17 +502,14 @@ function Booking() {
                           <span>Up to {option.maxGuests} guests</span>
                         </div>
                       )}
-                     {option.availableFrom && (
-                       <div className="mt-4 p-2 sm:p-3 bg-cream rounded-lg border border-terracotta/20">
-                         <p className="text-sm text-wine/70 font-serif italic">
-                           Calendar dates available from {new Date(option.availableFrom).toLocaleDateString('en-SG', {
-                             day: 'numeric',
-                             month: 'short',
-                             year: 'numeric'
-                           })} onwards
-                         </p>
-                       </div>
-                     )}
+                     <div className="mt-4 p-2 sm:p-3 bg-gradient-to-r from-terracotta/10 to-wine/10 rounded-lg border border-terracotta/30">
+                       <p className="text-sm text-wine font-serif font-bold text-center">
+                         🎉 Special Offer: 10% Discount Applied!
+                       </p>
+                       <p className="text-xs text-wine/70 font-serif italic text-center mt-1">
+                         Limited time promotion
+                       </p>
+                     </div>
                     </div>
                   </div>
                 ))}
@@ -637,21 +638,9 @@ function Booking() {
                     {formErrors.date && (
                       <p className="mt-2 text-terracotta text-xs sm:text-sm">{formErrors.date}</p>
                     )}
-                    {(() => {
-                      const selectedPackage = menuData.packages.find(pkg => pkg.id === formData.package);
-                      if (selectedPackage?.availableFrom) {
-                        return (
-                          <p className="mt-2 text-wine/70 text-xs sm:text-sm font-serif italic">
-                            📅 Calendar available from {new Date(selectedPackage.availableFrom).toLocaleDateString('en-SG', {
-                              day: 'numeric',
-                              month: 'short',
-                              year: 'numeric'
-                            })} onwards
-                          </p>
-                        );
-                      }
-                      return null;
-                    })()}
+                    <p className="mt-2 text-wine/70 text-xs sm:text-sm font-serif italic">
+                      📅 Available from 10 days in advance • 🎉 10% discount applied
+                    </p>
                   </div>
                   <div>
                     <label className="block text-wine font-serif mb-2">Number of Guests</label>
