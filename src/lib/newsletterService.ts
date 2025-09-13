@@ -15,10 +15,9 @@ export async function subscribeToNewsletter(name: string, email: string) {
       .from('newsletter_subscribers')
       .select('id, is_active')
       .eq('email', email)
-      .single();
+      .maybeSingle();
 
-    if (checkError && checkError.code !== 'PGRST116') {
-      // PGRST116 is "not found" error, which is expected for new subscribers
+    if (checkError) {
       throw checkError;
     }
 
