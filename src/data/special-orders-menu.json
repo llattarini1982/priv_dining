@@ -20,19 +20,19 @@
       
         {
           "name": "Pizzette Napoli Style S",
-          "description": "Serves 3 people",
+          "description": "Serves 3 people (3 pieces)",
           "servings": 3,
           "price": 27
         },
         {
           "name": "Pizzette Napoli Style M",
-          "description": "Serves 6 people",
+          "description": "Serves 6 people (6 pieces)",
           "servings": 6,
           "price": 52
         },
         {
           "name": "Pizzette Napoli Style L",
-          "description": "Serves 12 people",
+          "description": "Serves 12 people  (12 pieces)",
           "servings": 12,
           "price": 77
         }
@@ -45,7 +45,7 @@
       "items": [
         {
           "name": "Margherita",
-          "description": "Slow-proofed Roman dough topped with crushed San Marzano tomatoes, fresh mozzarella, fragrant basil, and a drizzle of extra virgin olive oil",
+          "description": "Slow-proofed Roman dough topped with crushed San Marzano tomatoes, fresh mozzarella, fragrant basil, and a drizzle of extra virgin olive oil(Serves 6 people)",
           "servings": 6,
           "price": 22
         },
@@ -81,7 +81,7 @@
       "items": [
         {
           "name": "Lasagna XS",
-          "description": "Perfect for 1 person",
+          "description": "Perfect for 1 person (Ideal Lunch at your Office)",
           "servings": 1,
           "price": 20
         },
@@ -146,38 +146,17 @@
           "name": "Maritozzi Pistacchio and Whipped Cream M",
           "description": "12 pieces",
           "servings": 1,
-          "price": 70
+          "price": 60
         },
         {
           "name": "Maritozzi Pistacchio and Whipped Cream L",
           "description": "24 pieces",
           "servings": 12,
-          "price": 134
+          "price": 130
         }
       ]
-    },
-    {
-      "name": "Sweet Desire",
-      "description": "Perfect for a sweet sharing where Roman and Sicilian tradition meet",
-      "items": [
-        {
-          "name": "Maritozzi Pistacchio and Whipped Cream S",
-          "description": "6 pieces",
-          "servings": 1,
-          "price": 36
-        },
-        {
-          "name": "Maritozzi Pistacchio and Whipped Cream M",
-          "description": "12 pieces",
-          "servings": 1,
-          "price": 70
-        },
-        {
-          "name": "Maritozzi Pistacchio and Whipped Cream L",
-          "description": "24 pieces",
-          "servings": 12,
-          "price": 134
-        }
+    }
+    
       ]
     }
   ]
