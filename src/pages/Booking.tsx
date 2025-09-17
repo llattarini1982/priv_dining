@@ -68,7 +68,7 @@ const menuData = {
       {
       id: "special-orders",
       name: "Special Orders",
-      description: "Choose your Pizza Romana Base, Homemade Lasagna and Sharing Platter",
+      description: "Choose your Pizza Romana Base, Homemade Lasagna and Sharing Platter - Pickup Only",
       minSpending: 200,
       category: "standard",
       menuFile: "special-orders-menu.json"
