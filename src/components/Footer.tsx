@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-terracotta" />
-                <span className="font-serif text-sm sm:text-base">All Singapore Areas - Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands</span>
+                <span className="font-serif text-sm sm:text-base">All Singapore Areas - Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands, Serangoon</span>
               </div>
             </div>
             
