@@ -14,15 +14,16 @@ const menuData = {
     {
       id: "i-love-italian",
       name: "I love Italian Food",
-      description: "Perfect for intimate gatherings and family dinners",
+      description: "Perfect for intimate gatherings and family dinners. Choose your favorite dishes from our authentic Italian menu, and we'll provide the final price per person based on your selections.",
       price: 1700,
       minSpending: 1700,
       minGuests: 6,
       maxGuests: 25,
       courses: 5,
       includes: [
-        "4 - courses traditional Italian meal (Antipasto, Starter, Main Course, Dessert)",
-        "1 - Italian Feast course"
+        "Choose from 4-course traditional Italian meal options (Antipasto, Starter, Main Course, Dessert)",
+        "Includes 1 Italian Feast course",
+        "Minimum spending requirement - final price calculated per person based on your menu selections"
       ],
       category: "standard",
       menuFile: "i-love-italian-menu.json",
@@ -31,14 +32,15 @@ const menuData = {
     {
       id: "italian-sharing",
       name: "I love Italian Street Food",
-      description: "Experience Italian street food from different Italian regions",
+      description: "Experience authentic Italian street food from different regions. Select your favorite items from our street food menu, and we'll calculate the final price per person based on your choices.",
       price: 1500,
       minSpending: 1500,
       minGuests: 6,
       maxGuests: 25,
       courses: 6,
       includes: [
-        "6 - Italian Street Food items at your choice"
+        "Choose 6 Italian Street Food items from our regional selection",
+        "Minimum spending requirement - final price calculated per person based on your selections"
       ],
       category: "standard",
       menuFile: "italian-street-food-menu.json",
@@ -48,15 +50,16 @@ const menuData = {
     {
       id: "italian-pizza",
       name: "The Pinsa Romana",
-      description: "Experience the Real Pinsa Romana. Ideal for Pizza Lovers. ",
+      description: "Experience authentic Pinsa Romana, ideal for pizza lovers. Choose your favorite Pinsa varieties from our traditional menu, and we'll provide the final price per person based on your selections.",
       price: 1300,
       minSpending: 1300,
       minGuests: 6,
       maxGuests: 25,
       courses: 5,
       includes: [
-        "4 - Pinsa Romana at  your choice",
-        "1- Special Pinsa Romana of the day"
+        "Choose 4 Pinsa Romana varieties from our authentic selection",
+        "Includes 1 Special Pinsa Romana of the day",
+        "Minimum spending requirement - final price calculated per person based on your selections"
       ],
       category: "standard",
       menuFile: "pinsa-romana-menu.json",
@@ -474,8 +477,8 @@ function Booking() {
                         <span className="bg-terracotta text-cream px-2 py-1 rounded-full text-xs font-serif font-bold">10% OFF</span>
                       </div>
                     </div>
-                    <p className="text-sm text-wine/70 mb-2">
-                      Minimum spending required • 10% discount applied
+                    <p className="text-sm text-wine/70 mb-4 font-serif italic bg-gradient-to-r from-terracotta/10 to-wine/10 p-3 rounded-lg border-l-4 border-terracotta">
+                      <strong>How it works:</strong> This is the minimum spending requirement. Choose your dishes from our menu, and we'll calculate the final price per person based on your selections. 10% discount already applied!
                     </p>
                     <p className="text-sm text-wine/70 mb-4 font-serif italic">
                       {option.description}
