@@ -449,7 +449,7 @@ function Booking() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif text-center mb-3 sm:mb-4 text-wine px-4" itemProp="name">Book Private Chef Singapore | Authentic Italian Cuisine</h1>
         <p className="text-center text-wine/80 mb-6 sm:mb-8 font-serif italic max-w-2xl mx-auto px-4" itemProp="description">
-          Book Chef Luca for authentic Italian private dining in Singapore. Choose from traditional packages or special orders. Minimum 48-hour notice required.
+          Book Chef Luca - Singapore's #1 private Italian chef for authentic dining experiences. Choose from traditional packages or special orders. Serving all Singapore areas including Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands. Minimum 48-hour notice required.
         </p>
         
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-4 sm:p-6 md:p-8">

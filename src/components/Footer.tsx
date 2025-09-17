@@ -58,7 +58,7 @@ export default function Footer() {
               <a 
                 href="mailto:soundoflovewithluca@gmail.com" 
                 className="flex items-center gap-3 hover:text-terracotta transition-colors group"
-                aria-label="Email private Italian chef in Singapore"
+                aria-label="Email Singapore's #1 private Italian chef - Chef Luca"
               >
                 <Mail className="w-5 h-5 group-hover:text-terracotta" />
                 <span className="font-serif text-sm sm:text-base break-all">llattarini1982@soundoflovewithluca.com</span>
@@ -68,14 +68,14 @@ export default function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center gap-3 hover:text-terracotta transition-colors group"
-                aria-label="Follow Chef Luca on Instagram - Private Italian Chef Singapore"
+                aria-label="Follow Chef Luca on Instagram - Singapore's #1 Private Italian Chef"
               >
                 <Instagram className="w-5 h-5 group-hover:text-terracotta" />
                 <span className="font-serif text-sm sm:text-base">@thesoundoflovewithluca</span>
               </a>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-terracotta" />
-                <span className="font-serif text-sm sm:text-base">Singapore</span>
+                <span className="font-serif text-sm sm:text-base">All Singapore Areas - Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands</span>
               </div>
             </div>
             

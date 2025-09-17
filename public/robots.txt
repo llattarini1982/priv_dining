@@ -4,7 +4,13 @@ Allow: /
 # Sitemap
 Sitemap: https://soundoflovewithluca.com/sitemap.xml
 
-# Crawl-delay for better server performance
+# Optimize for Singapore search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
 Crawl-delay: 1
 
 # Block access to admin areas (if any in future)
@@ -12,19 +18,3 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /.env
 Disallow: /supabase/
-
-# Allow all major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Baiduspider
-Allow: /
