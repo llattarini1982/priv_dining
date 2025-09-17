@@ -736,7 +736,7 @@ function Booking() {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 bg-terracotta text-cream rounded-full flex items-center justify-center text-xs font-bold">3</span>
-                    <span className="text-wine/80 font-serif">Pickup fresh & ready</span>
+                    <span className="text-wine/80 font-serif">Pickup only - fresh & ready</span>
                   </div>
                 </div>
               </div>
