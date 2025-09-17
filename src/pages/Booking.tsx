@@ -463,15 +463,6 @@ function Booking() {
                       formData.package === option.id ? 'border-wine bg-wine/5' : 'border-wine/20 hover:border-wine/40'
                     }`}
                   >
-                    {option.availableFrom && (
-                      <div className="absolute top-2 right-2 bg-terracotta text-cream px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-serif">
-                        Calendar from {new Date(option.availableFrom).toLocaleDateString('en-SG', {
-                          day: 'numeric',
-                          month: 'short',
-                          year: 'numeric'
-                        })}
-                      </div>
-                    )}
                     <h3 className="text-lg sm:text-xl font-serif text-wine mb-2">
                       {option.name}
                     </h3>
