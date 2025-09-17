@@ -792,7 +792,8 @@ function Booking() {
                                 min="0"
                                value={specialOrders.find(order => 
                                  order.itemType === getItemType(category.name) && 
-                                 order.size === getSize(item.name)
+                                 order.size === getSize(item.name) &&
+                                 order.name === item.name
                                )?.quantity || 0}
                                 className="w-16 sm:w-20 px-2 sm:px-4 py-2 rounded border border-wine/20 focus:border-terracotta focus:ring-1 focus:ring-terracotta outline-none text-sm"
                                 onChange={(e) => {
@@ -803,7 +804,7 @@ function Booking() {
                                   if (quantity > 0) {
                                     setSpecialOrders(prev => {
                                       const filtered = prev.filter(order => 
-                                        !(order.itemType === itemType && order.size === size)
+                                        !(order.itemType === itemType && order.size === size && order.name === item.name)
                                       );
                                       
                                       return [...filtered, { 
@@ -817,7 +818,7 @@ function Booking() {
                                   } else {
                                     setSpecialOrders(prev => 
                                       prev.filter(order => 
-                                        !(order.itemType === itemType && order.size === size)
+                                        !(order.itemType === itemType && order.size === size && order.name === item.name)
                                       )
                                     );
                                   }
@@ -828,16 +829,21 @@ function Booking() {
                            {(() => {
                              const currentOrder = specialOrders.find(order => 
                                order.itemType === getItemType(category.name) && 
-                               order.size === getSize(item.name)
+                               order.size === getSize(item.name) &&
+                               order.name === item.name
                              );
                              return currentOrder && currentOrder.quantity > 0;
                            })() && (
                               <div className="mt-2 text-right">
                                 <p className="text-terracotta font-serif text-sm">
-                                 Total: ${(((specialOrders.find(order => 
-                                   order.itemType === getItemType(category.name) && 
-                                   order.size === getSize(item.name)
-                                 )?.quantity || 0) * itemPrice)).toFixed(2)}
+                                 Total: ${(() => {
+                                   const currentOrder = specialOrders.find(order => 
+                                     order.itemType === getItemType(category.name) && 
+                                     order.size === getSize(item.name) &&
+                                     order.name === item.name
+                                   );
+                                   return ((currentOrder?.quantity || 0) * itemPrice).toFixed(2);
+                                 })()}
                                 </p>
                               </div>
                             )}
