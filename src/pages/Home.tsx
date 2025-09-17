@@ -30,20 +30,20 @@ export default function Home() {
             <span className="text-lg sm:text-xl md:text-2xl block mb-2 sm:mb-4 font-serif italic text-terracotta">Welcome to</span>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
               <Heart className="w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 text-terracotta" />
-              <span className="text-center leading-tight">Singapore's #1 Private Italian Chef | Sound of Love with Luca</span>
+              <span className="text-center leading-tight">Sound of Love with Luca</span>
               <Music className="w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 text-terracotta" />
             </div>
-            <span className="text-lg sm:text-xl md:text-2xl block mt-2 sm:mt-4 text-terracotta">Authentic Italian Private Dining | All Singapore Areas</span>
+            <span className="text-lg sm:text-xl md:text-2xl block mt-2 sm:mt-4 text-terracotta">Private Italian Chef Singapore</span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-center max-w-2xl font-serif italic px-4" itemProp="description">
-            Experience authentic Italian cuisine with Singapore's #1 private chef. Homemade pasta, pizza & traditional recipes brought to your Singapore home. Serving Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands & all areas.
+          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-center max-w-2xl font-serif italic px-4">
+            Authentic Italian cuisine brought to your Singapore home. Handmade pasta, pizza & traditional recipes.
           </p>
           <Link 
             to="/booking" 
             className="bg-terracotta text-cream px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-terracotta-dark transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
-            aria-label="Book Singapore's #1 private Italian chef service - Chef Luca"
+            aria-label="Book private Italian chef service - Chef Luca"
           >
-            Book Singapore Private Chef - From $1170 (10% OFF)
+            Book Private Chef - From $1170
           </Link>
         </div>
       </section>
@@ -70,33 +70,33 @@ export default function Home() {
             <div className="space-y-6" itemProp="about">
               <div className="flex items-center gap-3">
                 <Heart className="w-8 h-8 text-terracotta" />
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-wine" itemProp="headline">About Chef Luca - Singapore's #1 Private Italian Chef</h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-wine" itemProp="headline">About Chef Luca</h2>
               </div>
               
               <div className="space-y-4 font-serif text-wine/80">
                 <p className="italic text-lg leading-relaxed">
-                  Born in the heart of Italy, I bring authentic Italian culinary traditions to Singapore. As Singapore's premier private chef specializing in traditional Italian cuisine, I create unforgettable dining experiences in the comfort of your Singapore home.
+                  Born in Italy, I bring authentic culinary traditions to Singapore. I create unforgettable dining experiences in your home.
                 </p>
                 
                 <p className="leading-relaxed">
-                  My culinary journey began in my grandmother's kitchen in Italy, learning time-honored techniques for handmade pasta, authentic pizza, and regional specialties. Now serving all Singapore areas, every recipe carries generations of Italian tradition and passion.
+                  My culinary journey began in my grandmother's kitchen, learning traditional techniques for handmade pasta and authentic pizza. Every recipe carries generations of Italian tradition.
                 </p>
                 
                 <p className="leading-relaxed">
-                  Now serving all Singapore areas as your private chef, I specialize in bringing authentic Italian flavors directly to your home. From Orchard Road to Marina Bay, Sentosa to Jurong, Tampines to Woodlands - I create personalized Italian dining experiences using traditional techniques and the finest ingredients.
+                  I specialize in bringing authentic Italian flavors to your home using traditional techniques and finest ingredients.
                 </p>
                 
                 <p className="italic text-lg leading-relaxed text-wine">
-                  Book your private Italian chef experience in Singapore today. Minimum 48-hour notice required. Proudly serving all Singapore areas including CBD, East Coast, North, South, West regions with authentic Italian cuisine, handmade pasta, and traditional recipes.
+                  Book your private Italian chef experience today. 48-hour notice required.
                 </p>
               </div>
 
               <Link
                 to="/booking"
                 className="inline-flex items-center gap-2 bg-terracotta text-cream px-6 py-3 rounded-full hover:bg-terracotta-dark transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
-                aria-label="Book Singapore's #1 private Italian chef service - Chef Luca"
+                aria-label="Book private Italian chef service - Chef Luca"
               >
-                <span className="font-serif">Book Singapore Private Chef</span>
+                <span className="font-serif">Book Private Chef</span>
                 <ChefHat className="w-5 h-5" />
               </Link>
             </div>
@@ -107,8 +107,8 @@ export default function Home() {
       {/* Signature Sections */}
       <section className="py-20 bg-cream-light" itemScope itemType="https://schema.org/Menu">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-center mb-4 text-wine" itemProp="name">Singapore's Best Italian Dishes - Private Chef Service</h2>
-          <p className="text-center text-wine/80 mb-12 sm:mb-16 font-serif italic" itemProp="description">Authentic Italian pizza and pasta made fresh in your Singapore home - Serving all areas including Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-center mb-4 text-wine" itemProp="name">Signature Italian Dishes</h2>
+          <p className="text-center text-wine/80 mb-12 sm:mb-16 font-serif italic" itemProp="description">Authentic Italian pizza and pasta made fresh in your home</p>
           
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             {/* Pizza Section */}
@@ -150,21 +150,19 @@ export default function Home() {
               <div className="p-4 sm:p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-4">
                   <Pizza className="w-8 h-8 text-terracotta" />
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-wine" itemProp="name">Singapore's Best Pinsa Romana - Private Italian Chef</h3>
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-wine" itemProp="name">Pinsa Romana</h3>
                 </div>
                 <p className="text-wine/80 font-serif italic mb-4 sm:mb-6 text-base sm:text-lg leading-relaxed" itemProp="description">
-                  Singapore's most authentic Italian Pinsa Romana with 72-hour fermented dough, made fresh in your Singapore home. This traditional Roman-style pizza features a crispy exterior and light, airy interior using time-honored Italian techniques.
 
-                  As Singapore's premier private Italian chef, I bring authentic flavors using premium ingredients and traditional methods passed down through generations. Available in all Singapore areas - each Pinsa is a masterpiece of Italian craftsmanship.
 
-                  Experience Singapore's best authentic Italian pizza made by a professional private chef in the comfort of your home. Serving Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands & all Singapore areas. 🍕✨
+                  Authentic Italian Pinsa Romana with 72-hour fermented dough, made fresh in your home. Traditional Roman-style pizza with crispy exterior and light, airy interior using time-honored techniques. 🍕✨
                 </p>
                 <Link 
                   to="/booking" 
                   className="inline-flex items-center gap-2 text-terracotta hover:text-terracotta-dark font-serif italic text-base sm:text-lg"
-                  aria-label="Book Singapore's best private chef for authentic Italian pizza"
+                  aria-label="Book private chef for authentic Italian pizza"
                 >
-                  Book Singapore Pizza Experience
+                  Book Pizza Experience
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
@@ -191,21 +189,19 @@ export default function Home() {
               <div className="p-4 sm:p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-4">
                   <Utensils className="w-8 h-8 text-terracotta" />
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-wine" itemProp="name">Singapore's Best Handmade Italian Pasta - Private Chef</h3>
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-wine" itemProp="name">Handmade Italian Pasta</h3>
                 </div>
                 <p className="text-wine/80 font-serif italic mb-4 sm:mb-6 text-base sm:text-lg leading-relaxed" itemProp="description">
-                  Experience Singapore's most authentic handmade Italian pasta crafted fresh in your home. Using traditional techniques learned in Italy, I create fresh pasta from scratch using premium ingredients and time-honored methods.
 
-                  As Singapore's premier private Italian chef, I specialize in traditional pasta dishes including Golden Ravioli, authentic Carbonara, and regional specialties. Serving all Singapore areas, each dish represents generations of Italian culinary tradition.
 
-                  Book your Singapore private pasta experience and taste the difference of authentic Italian cuisine made fresh in your home. Available in Orchard, Marina Bay, Sentosa, Jurong, Tampines, Woodlands & all areas. 🍝✨
+                  Authentic handmade pasta crafted fresh in your home using traditional techniques. Fresh pasta made from scratch including Golden Ravioli, Carbonara, and regional specialties. 🍝✨
                 </p>
                 <Link 
                   to="/booking" 
                   className="inline-flex items-center gap-2 text-terracotta hover:text-terracotta-dark font-serif italic text-base sm:text-lg"
-                  aria-label="Book Singapore's best private chef for handmade Italian pasta"
+                  aria-label="Book private chef for handmade Italian pasta"
                 >
-                  Book Singapore Pasta Experience
+                  Book Pasta Experience
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
