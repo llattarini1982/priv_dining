@@ -1,0 +1,27 @@
+{
+  "name": "Sound of Love with Luca - Private Italian Chef Singapore",
+  "short_name": "Chef Luca SG",
+  "description": "Private Italian Chef in Singapore - Authentic pasta, pizza & private dining",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#7b1f1f",
+  "background_color": "#fff3d6",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
