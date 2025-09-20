@@ -143,16 +143,16 @@
           "price":  36
         },
         {
-          "name": "Maritozzi Pistacchio and Whipped Cream M",
+          "name": "Maritozzi Pistacchio and/or Whipped Cream M",
           "description": "12 pieces",
           "servings": 12,
           "price": 60
         },
         {
-          "name": "Maritozzi Pistacchio and Whipped Cream L",
+          "name": "Maritozzi Pistacchio and/or Whipped Cream L",
           "description": "24 pieces",
           "servings": 24,
-          "price": 130
+          "price": 115
         }
       ]
     }
