@@ -38,7 +38,30 @@
         }
       ]
     },
-    
+     {
+      "name": "Pinsa Romana",
+      "description": "Ultimate crispy Pinsa Romana romana style",
+      "items": [
+        {
+          "name": "Mortadella & Pesto",
+          "description": "Homemade pistacchio pesto, stracciatella or burrata, mortadella",
+          "servings": 6,
+          "price": 36
+        },
+		 {
+          "name": "Potato & Italian Sausage",
+          "description": "Creamy sliced potatoes paired with house-made Italian sausage, rosemary, and fior di latte. A rich, satisfying combo. Serves 6 people",
+          "servings": 6,
+          "price": 28
+        },
+        {
+          "name": "Friarielli & Italian Sausage",
+          "description": "Bitter greens (friarielli) sautéed with garlic, paired with juicy Italian sausage and melted provola cheese for a deep, earthy bite.Serves 6 people",
+          "servings": 12,
+          "price": 42
+        }
+      ]
+    },
     {
       "name": "Pizza Teglia Romana 60",
       "description": "Combines the Roman pizza style al taglio with Singapore’s 60th anniversary",
@@ -56,22 +79,10 @@
           "price": 18
         },
         {
-          "name": "Potato & Italian Sausage",
-          "description": "Creamy sliced potatoes paired with house-made Italian sausage, rosemary, and fior di latte. A rich, satisfying combo. Serves 6 people",
-          "servings": 6,
-          "price": 28
-        },
-        {
           "name": "Amatriciana",
           "description": "Savory guanciale (cured pork cheek), tangy tomato sauce, pecorino Romano, and onion, inspired by the famous pasta dish.Serves 6 people",
           "servings": 12,
           "price": 36
-        },
-        {
-          "name": "Friarielli & Italian Sausage",
-          "description": "Bitter greens (friarielli) sautéed with garlic, paired with juicy Italian sausage and melted provola cheese for a deep, earthy bite.Serves 6 people",
-          "servings": 12,
-          "price": 42
         }
       ]
     },
