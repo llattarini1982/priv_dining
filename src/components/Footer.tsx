@@ -48,12 +48,12 @@ export default function Footer() {
               Get In Touch
             </h3>
             <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-              <a 
-                href="tel:+6597591439" 
+              <a
+                href="tel:+6597591439"
                 className="flex items-center gap-3 hover:text-terracotta transition-colors group"
               >
                 <Phone className="w-5 h-5 group-hover:text-terracotta" />
-                <span className="font-serif text-sm sm:text-base">+65 96638830 </span>
+                <span className="font-serif text-sm sm:text-base">+65 9759 1439</span>
               </a>
               <a 
                 href="mailto:soundoflovewithluca@gmail.com" 
