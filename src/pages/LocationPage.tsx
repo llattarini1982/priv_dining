@@ -219,11 +219,11 @@ export default function LocationPage() {
                   <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
-                  href="tel:+6597591439"
+                  href="tel:+6596638830"
                   className="inline-flex items-center gap-2 bg-cream text-wine px-8 py-4 rounded-full hover:bg-cream-light transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   <Phone className="w-5 h-5" />
-                  <span className="font-serif">+65 9759 1439</span>
+                  <span className="font-serif">+65 9663 8830</span>
                 </a>
               </div>
             </div>
