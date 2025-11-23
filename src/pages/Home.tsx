@@ -86,8 +86,8 @@ export default function Home() {
             </div>
             <span className="text-lg sm:text-xl md:text-2xl block mt-2 sm:mt-4 text-terracotta">Private Italian Chef Singapore</span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-center max-w-2xl font-serif italic px-4">
-            Authentic Italian cuisine brought to your Singapore home. Handmade pasta, pizza & traditional recipes.
+          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-center max-w-3xl font-serif italic px-4">
+            Authentic Italian cuisine brought to your Singapore home. 72-hour fermented pizza, handmade pasta & traditional recipes. Better than restaurants - personalized, intimate, all Singapore.
           </p>
           <Link 
             to="/booking" 
@@ -204,9 +204,7 @@ export default function Home() {
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-wine" itemProp="name">Pinsa Romana</h3>
                 </div>
                 <p className="text-wine/80 font-serif italic mb-4 sm:mb-6 text-base sm:text-lg leading-relaxed" itemProp="description">
-
-
-                  Authentic Italian Pinsa Romana with 72-hour fermented dough, made fresh in your home. Traditional Roman-style pizza with crispy exterior and light, airy interior using time-honored techniques. 🍕✨
+                  Authentic Italian Pinsa Romana with 72-hour fermented dough - longer than most restaurants for superior flavor and texture. Made fresh in your home using traditional Roman-style techniques. Crispy exterior, light airy interior. 🍕✨
                 </p>
                 <Link 
                   to="/booking" 
@@ -467,6 +465,53 @@ export default function Home() {
                 <span>Start Your $200 Order Now</span>
                 <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-wine text-cream">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-center mb-4">
+            Why Choose Private Dining Over Restaurants?
+          </h2>
+          <p className="text-center text-cream/80 mb-12 font-serif italic text-lg">
+            Experience the difference of authentic Italian cuisine in your own home
+          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-cream/10 backdrop-blur-sm rounded-xl p-8">
+              <div className="w-12 h-12 bg-terracotta rounded-full flex items-center justify-center mb-4 mx-auto">
+                <HomeIcon className="w-6 h-6 text-cream" />
+              </div>
+              <h3 className="text-xl font-serif text-center mb-3">All Singapore Coverage</h3>
+              <p className="text-cream/80 text-center font-serif">
+                We serve every neighborhood - Orchard, Marina Bay, Sentosa, CBD, East Coast, and more. Not limited to one location.
+              </p>
+            </div>
+            <div className="bg-cream/10 backdrop-blur-sm rounded-xl p-8">
+              <div className="w-12 h-12 bg-terracotta rounded-full flex items-center justify-center mb-4 mx-auto">
+                <Heart className="w-6 h-6 text-cream" />
+              </div>
+              <h3 className="text-xl font-serif text-center mb-3">Intimate & Private</h3>
+              <p className="text-cream/80 text-center font-serif">
+                No crowds, no noise, no waiting. Enjoy restaurant-quality food in the comfort and privacy of your own home.
+              </p>
+            </div>
+            <div className="bg-cream/10 backdrop-blur-sm rounded-xl p-8">
+              <div className="w-12 h-12 bg-terracotta rounded-full flex items-center justify-center mb-4 mx-auto">
+                <ChefHat className="w-6 h-6 text-cream" />
+              </div>
+              <h3 className="text-xl font-serif text-center mb-3">Fully Personalized</h3>
+              <p className="text-cream/80 text-center font-serif">
+                Customize your menu, dietary preferences, and timing. Chef Luca creates experiences tailored to you.
+              </p>
+            </div>
+          </div>
+          <div className="mt-12 text-center">
+            <div className="inline-block bg-terracotta/20 backdrop-blur-sm rounded-2xl p-6 border-2 border-terracotta">
+              <p className="text-lg font-serif italic">
+                🍕 <strong>72-hour fermented pizza dough</strong> - Longer fermentation for superior taste and digestibility
+              </p>
             </div>
           </div>
         </div>
