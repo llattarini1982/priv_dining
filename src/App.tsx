@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Booking from './pages/Booking';
+import LocationPage from './pages/LocationPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path="/:slug" element={<LocationPage />} />
           </Routes>
         </main>
         <Footer />

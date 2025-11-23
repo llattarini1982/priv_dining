@@ -1,20 +1,71 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  ChefHat, 
-  Star, 
-  Heart, 
-  Music, 
-  Utensils, 
-  Pizza, 
-  Home as HomeIcon, 
+import {
+  ChefHat,
+  Star,
+  Heart,
+  Music,
+  Utensils,
+  Pizza,
+  Home as HomeIcon,
   ArrowRight,
-  Package
+  Package,
+  MapPin
 } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
+import {
+  getSEOPageBySlug,
+  getFAQsByPage,
+  getAllLocations,
+  generateFAQSchema,
+  SEOPage,
+  SEOFAQ,
+  SEOLocation
+} from '../lib/seoService';
 
 export default function Home() {
+  const [seoData, setSeoData] = useState<SEOPage | null>(null);
+  const [faqs, setFaqs] = useState<SEOFAQ[]>([]);
+  const [locations, setLocations] = useState<SEOLocation[]>([]);
+
+  useEffect(() => {
+    const fetchSEOData = async () => {
+      const [pageData, faqData, locationData] = await Promise.all([
+        getSEOPageBySlug('home'),
+        getFAQsByPage('home'),
+        getAllLocations()
+      ]);
+
+      setSeoData(pageData);
+      setFaqs(faqData);
+      setLocations(locationData);
+    };
+
+    fetchSEOData();
+  }, []);
+
+  const schemas = [];
+  if (faqs.length > 0) {
+    schemas.push(generateFAQSchema(faqs));
+  }
+
   return (
-    <div className="min-h-screen bg-cream pt-16">
+    <>
+      {seoData && (
+        <SEOHead
+          title={seoData.title}
+          description={seoData.description}
+          keywords={seoData.keywords}
+          ogTitle={seoData.og_title}
+          ogDescription={seoData.og_description}
+          ogImage={seoData.og_image}
+          canonicalUrl={seoData.canonical_url}
+          geoLocality={seoData.geo_locality}
+          geoCoordinates={seoData.geo_coordinates as { lat: number; lng: number }}
+          schemas={schemas}
+        />
+      )}
+      <div className="min-h-screen bg-cream pt-16">
       {/* Hero Section */}
       <section className="relative h-screen">
         <div className="absolute inset-0">
@@ -420,6 +471,54 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {locations.length > 0 && (
+        <section className="py-20 bg-cream-light">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-center mb-4 text-wine">
+              Private Dining Across Singapore
+            </h2>
+            <p className="text-center text-wine/80 mb-12 font-serif italic">
+              We bring authentic Italian cuisine to every corner of Singapore
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {locations.map((location) => (
+                <Link
+                  key={location.id}
+                  to={`/${location.slug}`}
+                  className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-all transform hover:scale-105 text-center"
+                >
+                  <MapPin className="w-8 h-8 text-terracotta mx-auto mb-3" />
+                  <h3 className="font-serif text-wine font-semibold mb-1">{location.name}</h3>
+                  <p className="text-wine/60 text-sm">{location.region}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {faqs.length > 0 && (
+        <section className="py-20 bg-cream">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-center mb-12 text-wine">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq) => (
+                <div key={faq.id} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                  <h3 className="text-xl font-serif text-wine mb-3 flex items-start gap-3">
+                    <span className="text-terracotta font-bold">Q:</span>
+                    <span>{faq.question}</span>
+                  </h3>
+                  <p className="text-wine/70 leading-relaxed pl-8">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </div>
+    </>
   );
 }
